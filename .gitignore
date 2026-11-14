@@ -1,0 +1,14 @@
+# videos are too large for git - each PROMPT.md, section 0, lists what is missing and where it came from
+*.mp4
+# ...except Muffet's soundtrack, which is an audio file in an mp4 container
+!mft-mv/asset/music/spider dance.mp4
+
+# local tooling / outputs
+.spec-workflow/
+__pycache__/
+work/
+dist/
+node_modules/
+.venv/
+Thumbs.db
+desktop.ini
